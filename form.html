@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>HTML Form</legend>
+
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname">
+
+            <br>
+            <br>
+
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname">
+
+            <br>
+            <br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+
+            <br>
+            <br>
+
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday">
+
+            <br>
+            <br>
+
+            <label for="birthdayTime">Birthday Time</label>
+            <input type="time" id="birthdayTime" name="birthdayTime">
+
+            <br>
+            <br>
+
+            <label for="birthdayMonth">Birthday Month</label>
+            <input type="month" id="birthdayMonth" name="birthdayMonth">
+            <br>
+            <br>
+
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <br>
+            <br>
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <br>
+            <br>
+
+            <label>Educational Attainment</label>
+            <select id="education" name="education" multiple>
+                <option value="CD">College Degree</option>
+                <option value="AD">Associate Degree</option>
+                <option value="DD">Doctorate Degree</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label>Message</label>
+            <textarea id="message" name="message" rows="10" cols="30" placeholder="Enter your message"></textarea>
+
+            <br>
+            <br>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="0" max="150">
+
+
+            <br>
+            <br>
+
+            <input type="checkbox" id="agree" name="agree" value="true" required>
+            <label>Agree to Terms and Condition</label>
+
+            <br>
+            <br>
+
+            <label>Picture</label>
+            <input type="file" accept=".gif,.jpg,.png,.bmp">
+
+            <br>
+            <br>
+
+            <label>Upload a file</label>
+            <input type="file" accept="*.*">
+
+            <br>
+            <br>
+
+            <label for="favColor">Favorite Color</label>
+            <input type="color" id="favColor" name="favColor">
+
+            <br>
+            <br>
+
+            <label for="salaryRange">Salary Range</label>
+            <input type="range" id="salaryRange" name="salaryRange>" min="0" max="10000" value="1000">
+
+            <br>
+            <br>
+
+            <label for="search">Search</label>
+            <input type="search" id="search" name="search">
+
+            <br>
+            <br>
+
+            <label for="phone">Enter your phone number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+            <br>
+            <br>
+            <label for="website">Personal Website</label>
+            <input type="url" id="website" name="website">
+
+            <br>
+            <br>
+
+            <input type="hidden" name="recordid" value="10">
+
+            <br>
+            <br>
+
+            <button type="submit">Submit</button>
+
+            <br>
+            <br>
+
+            <input type="reset">
+
+            <!-- <br>
+            <br>
+            <input type="submit"> -->
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
